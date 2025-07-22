@@ -1,0 +1,67 @@
+/* Fuentes */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #2980b9;
+}
+
+/* Contenedor Principal */
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Secciones */
+.bienvenida, .contenido {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+.bienvenida {
+    border-left: 5px solid #2ecc71;
+}
+
+.contenido {
+    border-left: 5px solid #e74c3c;
+}
+
+/* Pie de página */
+.pie {
+    background-color: #7f8c8d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2px solid #555;
+}
+
+/*  Estilos adicionales para mayor contraste*/
+.bienvenida h2, .contenido h2 {
+    color: #2c3e50;
+}
+
+/*  Ajustes de espaciado y tipografía*/
+h1, h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
